@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Langsung Enak</name>
+
+    <description>
+        Langsung Enak
+    </description>
+
+    <author href="andita.info" email="andita.info@gmail.com">
+        Dendy B. Sulistyo
+    </author>
+
+
+    <platform name="ios" />
+    <platform name="android" />
+    <platform name="winphone" />
+
+
+ <!-- Define app icon for each platform. -->
+    <icon src="icon.png" />
+    <icon src="res/icon/android/res/drawable-ldpi/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="res/icon/android/res/drawable-mdpi/icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="res/icon/android/res/drawable-hdpi/icon-72-hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="res/icon/android/res/drawable-xhdpi/icon-96-xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi" />
+    
+    <!-- Define app splash screen for each platform. -->
+    <!-- <gap:splash src="res/screen/android/screen-ldpi-portrait.png"       gap:platform="android" gap:qualifier="port-ldpi" />
+    <gap:splash src="res/screen/android/screen-mdpi-portrait.png"       gap:platform="android" gap:qualifier="port-mdpi" />
+    <gap:splash src="res/screen/android/screen-hdpi-portrait.png"       gap:platform="android" gap:qualifier="port-hdpi" />
+    <gap:splash src="res/screen/android/screen-xhdpi-portrait.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
+    -->
+
+</widget>
